@@ -1,7 +1,7 @@
 # JSON to Table (HTML)
 
 ### Install
-Install via npm
+
 `npm install jsontableify`
 
 ### Include
@@ -14,10 +14,10 @@ Install via npm
 
 ```
 const { html } = new JsonProcessor({
-  headerList: ['Phone', 'Attachments', 'PersonCompetency'], // optional
-  dateFormat: 'DD-MM-YYYY', // optional
-  replaceTextMap: { YearsOfExperience: 'Years Of Experience' }, // optional
-  excludeKeys: ['Current CTC'], // optional
+  headerList: ['Phone', 'Attachments', 'PersonCompetency'], // optional - will be shown as header to table
+  dateFormat: 'DD-MM-YYYY', // optional- date format to be converted to if date found
+  replaceTextMap: { YearsOfExperience: 'Years Of Experience' }, // optional - key will be replaced by its value
+  excludeKeys: ['Current CTC'], // optional - these fields will not be displayed
 }).toHtml(<JSON object>)
 ```
 
