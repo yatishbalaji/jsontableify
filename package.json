@@ -1,0 +1,24 @@
+{
+  "name": "@yatishbalaji/json-to-table",
+  "version": "1.0.0",
+  "description": "convert complex json to table (html)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json",
+    "html",
+    "pretty",
+    "beautify",
+    "convert",
+    "table",
+    "date",
+    "links"
+  ],
+  "author": "Yatish Balaji",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}

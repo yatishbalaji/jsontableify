@@ -1,0 +1,19 @@
+{
+    "parserOptions": {
+      "ecmaVersion": 2017,
+      "ecmaFeatures": {
+        "experimentalObjectRestSpread": true
+      }
+    },
+    "extends": [
+      "airbnb/base"
+    ],
+    "env": {
+      "mocha": true
+     },
+    "globals": {
+      "describe": true,
+      "it": true
+    }
+}
+  
