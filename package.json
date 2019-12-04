@@ -1,6 +1,6 @@
 {
   "name": "jsontableify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "convert complex json to table (html)",
   "main": "src/jsontableify.js",
   "repository": {
