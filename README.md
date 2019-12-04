@@ -13,7 +13,7 @@
 ## Usage
 
 ```
-const { html } = new JsonProcessor({
+const { html } = new Jsontableify({
   headerList: ['Phone', 'Attachments', 'PersonCompetency'], // optional - will be shown as header to table
   dateFormat: 'DD-MM-YYYY', // optional- date format to be converted to if date found
   replaceTextMap: { YearsOfExperience: 'Years Of Experience' }, // optional - key will be replaced by its value

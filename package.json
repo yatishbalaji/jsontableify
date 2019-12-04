@@ -2,7 +2,7 @@
   "name": "jsontableify",
   "version": "1.0.2",
   "description": "convert complex json to table (html)",
-  "main": "src/jsonProcessor.js",
+  "main": "src/jsontableify.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/yatishbalaji/jsontableify.git"

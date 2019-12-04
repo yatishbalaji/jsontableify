@@ -15,7 +15,7 @@ function convert(key) {
   return capitalize(key.replace(/([a-z])([A-Z])/g, '$1 $2'));
 }
 
-class JsonProcessor {
+class Jsontableify {
   constructor(config = {}) {
     const {
       headerList = [], dateFormat = 'DD-MM-YYYY',
@@ -225,4 +225,4 @@ class JsonProcessor {
   }
 }
 
-module.exports = JsonProcessor;
+module.exports = Jsontableify;
