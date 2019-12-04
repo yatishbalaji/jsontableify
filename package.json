@@ -1,8 +1,12 @@
 {
-  "name": "@yatishbalaji/json-to-table",
+  "name": "jsontableify",
   "version": "1.0.0",
   "description": "convert complex json to table (html)",
-  "main": "index.js",
+  "main": "src/jsonProcessor.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-user/repo-url.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

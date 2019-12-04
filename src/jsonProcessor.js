@@ -16,7 +16,12 @@ function convert(key) {
 }
 
 class JsonProcessor {
-  constructor(headerList = [], dateFormat = 'DD-MM-YYYY', replaceTextMap = {}, excludeKeys = []) {
+  constructor(config = {}) {
+    const {
+      headerList = [], dateFormat = 'DD-MM-YYYY',
+      replaceTextMap = {}, excludeKeys = [],
+    } = config;
+
     this.dateFormat = dateFormat;
     this.headerList = headerList;
     this.replaceTextMap = replaceTextMap;
