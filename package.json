@@ -17,6 +17,7 @@
     "beautify",
     "convert",
     "table",
+    "tableify",
     "date",
     "links",
     "capitalize"

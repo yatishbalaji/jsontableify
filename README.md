@@ -86,8 +86,11 @@ const { html } = new Jsontableify({
   }
 }
 ```
-will convert into table like
 
-![JsonTableify](examples/toHtml.png)
+### Output
 
-> CSS for HTML code is present in https://github.com/yatishbalaji/jsontableify/blob/master/examples/toHtml.css
+HTML table ![JsonTableify](examples/toHtml.png)
+
+### CSS for HTML code
+
+https://github.com/yatishbalaji/jsontableify/blob/master/examples/toHtml.css
