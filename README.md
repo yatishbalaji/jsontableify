@@ -80,7 +80,6 @@ const { html } = new Jsontableify({
 ```
 will convert into table like
 
-![JsonTableify](https://photos.app.goo.gl/DXgnRCC1XXFJR75g8)
-
+![JsonTableify](examples/toHtml.png)
 
 > CSS for HTML code is present in `examples/toHtml.css`
