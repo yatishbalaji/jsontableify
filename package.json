@@ -1,7 +1,7 @@
 {
   "name": "jsontableify",
-  "version": "1.0.4",
-  "description": "convert complex json to table (html)",
+  "version": "1.0.5",
+  "description": "convert complex json to table (html). Its supports date, links, json arrays.",
   "main": "src/jsontableify.js",
   "repository": {
     "type": "git",
@@ -18,7 +18,8 @@
     "convert",
     "table",
     "date",
-    "links"
+    "links",
+    "capitalize"
   ],
   "author": "Yatish Balaji",
   "license": "ISC",

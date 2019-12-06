@@ -9,7 +9,15 @@
 `const Jsontableify = require('jsontableify')`
 
 ### Features
-* `toHTML(<json_object>)`: converts json to html code
+* `toHTML(<json_object>)`: converts json to html code.
+  * Date (Configurable formatting)
+  * Links
+  * JSON arrays
+  * Labels get capitalized.
+  * Hide few labels from table.
+  * Replace text
+  * Define section headers / main json keys
+
 ## Usage
 
 ```
@@ -82,4 +90,4 @@ will convert into table like
 
 ![JsonTableify](examples/toHtml.png)
 
-> CSS for HTML code is present in `examples/toHtml.css`
+> CSS for HTML code is present in https://github.com/yatishbalaji/jsontableify/blob/master/examples/toHtml.css
