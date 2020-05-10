@@ -1,0 +1,50 @@
+table {
+    font-family: 'Source Sans Pro', sans-serif;
+    border: 1px solid thin #c1c1c1;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: left;
+    table-layout:fixed;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    text-transform: capitalize;
+    text-align: left;
+    vertical-align: center;
+    text-overflow: ellipsis;
+    border: 2px solid thin #c1c1c1;
+    word-wrap: break-word;
+    padding: 3px 3px;
+    font-size: 13px;
+}
+
+table tr:nth-child(even) {
+    background: #e5e5e5;
+}
+
+.thead {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-left: 1px solid thin #a3a3a3;
+    background: #5585b9;
+}
+
+hr {
+    border-top: 1px dotted black;
+}
+
+.no-break {
+    page-break-inside: avoid !important;
+} 
+
+table,tr,td,div {
+    page-break-inside: auto !important;
+}
+
+th {
+    width: 30%;
+    border-right: 1px solid #c1c1c1 !important;
+}
